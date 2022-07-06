@@ -3,8 +3,8 @@ from turtle import Turtle, Screen
 
 is_race_on = True
 screen = Screen()
-background = 'racetrack.png'
-screen.bgpic(background)
+# background = 'racetrack.png'
+# screen.bgpic(background)
 screen.setup(width=500, height=400)
 user_bet = screen.textinput(title="make your bet", prompt="Which turtle will win the race? Enter a color: ")
 
